@@ -5,7 +5,7 @@ public class SelectionSort {
     public static void selectionSort(int[] arr) {
         int n = arr.length;
 
-        // Runs n - 1 passes
+        // first for loop to create passes and comapre elements with unordered ramaining array , Runs n - 1 passes
         for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
 
